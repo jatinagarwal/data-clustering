@@ -1,0 +1,4749 @@
+{
+    "nodes": [
+        {
+            "amiLaunchIndex": 0, 
+            "architecture": "i386", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "/dev/sdh", 
+                    "ebs": {
+                        "attachTime": 1373895452000, 
+                        "status": "attached", 
+                        "volumeId": "vol-7cda5621"
+                    }
+                }
+            ], 
+            "clientToken": "", 
+            "hypervisor": "xen", 
+            "iamInstanceProfile": null, 
+            "imageId": "ami-90e076f9", 
+            "instanceId": "i-aa55d4c1", 
+            "instanceLifecycle": null, 
+            "instanceType": "m1.medium", 
+            "kernelId": "aki-805ea7e9", 
+            "keyName": "cloudjee-admin", 
+            "launchTime": 1373894973000, 
+            "license": null, 
+            "monitoring": {
+                "state": "enabled"
+            }, 
+            "networkInterfaces": [], 
+            "placement": {
+                "availabilityZone": "us-east-1b", 
+                "groupName": "", 
+                "tenancy": "default"
+            }, 
+            "platform": null, 
+            "privateDnsName": "ip-10-164-44-211.ec2.internal", 
+            "privateIpAddress": "10.164.44.211", 
+            "productCodes": [], 
+            "publicDnsName": "ec2-174-129-207-255.compute-1.amazonaws.com", 
+            "publicIpAddress": "174.129.207.255", 
+            "ramdiskId": null, 
+            "rootDeviceName": null, 
+            "rootDeviceType": "instance-store", 
+            "securityGroups": [
+                {
+                    "groupId": "sg-b456f1df", 
+                    "groupName": "cloudjee-platform-clusterdb"
+                }, 
+                {
+                    "groupId": "sg-4978a422", 
+                    "groupName": "jclouds#test"
+                }, 
+                {
+                    "groupId": "sg-0871d463", 
+                    "groupName": "cloudjee-platform-lb"
+                }, 
+                {
+                    "groupId": "sg-812ef6ea", 
+                    "groupName": "cloudjee-ssh-group"
+                }, 
+                {
+                    "groupId": "sg-cea500a5", 
+                    "groupName": "cloudjee-platform-db"
+                }, 
+                {
+                    "groupId": "sg-432ff728", 
+                    "groupName": "cloudjee-platform-server"
+                }
+            ], 
+            "spotInstanceRequestId": null, 
+            "state": {
+                "code": 16, 
+                "name": "running"
+            }, 
+            "stateReason": null, 
+            "stateTransitionReason": "", 
+            "subnetId": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "staging.cloudjee.com"
+                }
+            ], 
+            "virtualizationType": "paravirtual", 
+            "vpcId": null
+        }, 
+        {
+            "amiLaunchIndex": 0, 
+            "architecture": "i386", 
+            "blockDeviceMappings": [], 
+            "clientToken": "", 
+            "hypervisor": "xen", 
+            "iamInstanceProfile": null, 
+            "imageId": "ami-90e076f9", 
+            "instanceId": "i-98b911f0", 
+            "instanceLifecycle": null, 
+            "instanceType": "m1.small", 
+            "kernelId": "aki-805ea7e9", 
+            "keyName": "cloudjee-admin", 
+            "launchTime": 1372927820000, 
+            "license": null, 
+            "monitoring": {
+                "state": "enabled"
+            }, 
+            "networkInterfaces": [], 
+            "placement": {
+                "availabilityZone": "us-east-1a", 
+                "groupName": "", 
+                "tenancy": "default"
+            }, 
+            "platform": null, 
+            "privateDnsName": "domU-12-31-39-0E-14-23.compute-1.internal", 
+            "privateIpAddress": "10.192.23.209", 
+            "productCodes": [], 
+            "publicDnsName": "ec2-54-235-133-66.compute-1.amazonaws.com", 
+            "publicIpAddress": "54.235.133.66", 
+            "ramdiskId": null, 
+            "rootDeviceName": null, 
+            "rootDeviceType": "instance-store", 
+            "securityGroups": [
+                {
+                    "groupId": "sg-b456f1df", 
+                    "groupName": "cloudjee-platform-clusterdb"
+                }, 
+                {
+                    "groupId": "sg-0871d463", 
+                    "groupName": "cloudjee-platform-lb"
+                }, 
+                {
+                    "groupId": "sg-812ef6ea", 
+                    "groupName": "cloudjee-ssh-group"
+                }, 
+                {
+                    "groupId": "sg-cea500a5", 
+                    "groupName": "cloudjee-platform-db"
+                }, 
+                {
+                    "groupId": "sg-432ff728", 
+                    "groupName": "cloudjee-platform-server"
+                }
+            ], 
+            "spotInstanceRequestId": null, 
+            "state": {
+                "code": 16, 
+                "name": "running"
+            }, 
+            "stateReason": null, 
+            "stateTransitionReason": "", 
+            "subnetId": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "dev.cloudjee.com"
+                }
+            ], 
+            "virtualizationType": "paravirtual", 
+            "vpcId": null
+        }, 
+        {
+            "amiLaunchIndex": 0, 
+            "architecture": "i386", 
+            "blockDeviceMappings": [], 
+            "clientToken": "", 
+            "hypervisor": "xen", 
+            "iamInstanceProfile": null, 
+            "imageId": "ami-90e076f9", 
+            "instanceId": "i-8aac8eeb", 
+            "instanceLifecycle": null, 
+            "instanceType": "m1.small", 
+            "kernelId": "aki-805ea7e9", 
+            "keyName": "cloudjee-admin", 
+            "launchTime": 1373018427000, 
+            "license": null, 
+            "monitoring": {
+                "state": "enabled"
+            }, 
+            "networkInterfaces": [], 
+            "placement": {
+                "availabilityZone": "us-east-1a", 
+                "groupName": "", 
+                "tenancy": "default"
+            }, 
+            "platform": null, 
+            "privateDnsName": "domU-12-31-39-07-BC-A2.compute-1.internal", 
+            "privateIpAddress": "10.209.191.80", 
+            "productCodes": [], 
+            "publicDnsName": "ec2-54-227-117-19.compute-1.amazonaws.com", 
+            "publicIpAddress": "54.227.117.19", 
+            "ramdiskId": null, 
+            "rootDeviceName": null, 
+            "rootDeviceType": "instance-store", 
+            "securityGroups": [
+                {
+                    "groupId": "sg-812ef6ea", 
+                    "groupName": "cloudjee-ssh-group"
+                }, 
+                {
+                    "groupId": "sg-967fdafd", 
+                    "groupName": "cloudjee-monitoring-server"
+                }
+            ], 
+            "spotInstanceRequestId": null, 
+            "state": {
+                "code": 272, 
+                "name": "running"
+            }, 
+            "stateReason": null, 
+            "stateTransitionReason": "", 
+            "subnetId": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "monitoring-server"
+                }
+            ], 
+            "virtualizationType": "paravirtual", 
+            "vpcId": null
+        }, 
+        {
+            "amiLaunchIndex": 0, 
+            "architecture": "x86_64", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "/dev/sda1", 
+                    "ebs": {
+                        "attachTime": 1379051572000, 
+                        "status": "attached", 
+                        "volumeId": "vol-75b27602"
+                    }
+                }, 
+                {
+                    "deviceName": "/dev/sdf4", 
+                    "ebs": {
+                        "attachTime": 1379051572000, 
+                        "status": "attached", 
+                        "volumeId": "vol-17b27660"
+                    }
+                }
+            ], 
+            "clientToken": "PYPPD1379051569716", 
+            "hypervisor": "xen", 
+            "iamInstanceProfile": null, 
+            "imageId": "ami-affcbec6", 
+            "instanceId": "i-7e67211a", 
+            "instanceLifecycle": null, 
+            "instanceType": "m1.medium", 
+            "kernelId": "aki-88aa75e1", 
+            "keyName": "cloudjee-admin", 
+            "launchTime": 1379051570000, 
+            "license": null, 
+            "monitoring": {
+                "state": "disabled"
+            }, 
+            "networkInterfaces": [], 
+            "placement": {
+                "availabilityZone": "us-east-1a", 
+                "groupName": "", 
+                "tenancy": "default"
+            }, 
+            "platform": null, 
+            "privateDnsName": "ip-10-190-94-48.ec2.internal", 
+            "privateIpAddress": "10.190.94.48", 
+            "productCodes": [], 
+            "publicDnsName": "ec2-54-242-23-135.compute-1.amazonaws.com", 
+            "publicIpAddress": "54.242.23.135", 
+            "ramdiskId": null, 
+            "rootDeviceName": "/dev/sda1", 
+            "rootDeviceType": "ebs", 
+            "securityGroups": [
+                {
+                    "groupId": "sg-812ef6ea", 
+                    "groupName": "cloudjee-ssh-group"
+                }, 
+                {
+                    "groupId": "sg-967fdafd", 
+                    "groupName": "cloudjee-monitoring-server"
+                }
+            ], 
+            "spotInstanceRequestId": null, 
+            "state": {
+                "code": 16, 
+                "name": "running"
+            }, 
+            "stateReason": null, 
+            "stateTransitionReason": "", 
+            "subnetId": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "GraphiteServer"
+                }
+            ], 
+            "virtualizationType": "paravirtual", 
+            "vpcId": null
+        }, 
+        {
+            "amiLaunchIndex": 0, 
+            "architecture": "i386", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "/dev/sda7", 
+                    "ebs": {
+                        "attachTime": 1382422868000, 
+                        "status": "attached", 
+                        "volumeId": "vol-d747c1a0"
+                    }
+                }
+            ], 
+            "clientToken": "", 
+            "hypervisor": "xen", 
+            "iamInstanceProfile": null, 
+            "imageId": "ami-85ce9aec", 
+            "instanceId": "i-616e5d04", 
+            "instanceLifecycle": null, 
+            "instanceType": "m1.small", 
+            "kernelId": "aki-b6aa75df", 
+            "keyName": "bhavin", 
+            "launchTime": 1381915042000, 
+            "license": null, 
+            "monitoring": {
+                "state": "disabled"
+            }, 
+            "networkInterfaces": [], 
+            "placement": {
+                "availabilityZone": "us-east-1a", 
+                "groupName": "", 
+                "tenancy": "default"
+            }, 
+            "platform": null, 
+            "privateDnsName": "ip-10-238-147-9.ec2.internal", 
+            "privateIpAddress": "10.238.147.9", 
+            "productCodes": [], 
+            "publicDnsName": "ec2-54-211-197-73.compute-1.amazonaws.com", 
+            "publicIpAddress": "54.211.197.73", 
+            "ramdiskId": null, 
+            "rootDeviceName": null, 
+            "rootDeviceType": "instance-store", 
+            "securityGroups": [
+                {
+                    "groupId": "sg-015cab68", 
+                    "groupName": "default"
+                }, 
+                {
+                    "groupId": "sg-a66e9bcd", 
+                    "groupName": "StressTest"
+                }
+            ], 
+            "spotInstanceRequestId": null, 
+            "state": {
+                "code": 16, 
+                "name": "running"
+            }, 
+            "stateReason": null, 
+            "stateTransitionReason": "", 
+            "subnetId": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "GraphiteMonitoring-wavemaker-Testing"
+                }
+            ], 
+            "virtualizationType": "paravirtual", 
+            "vpcId": null
+        }, 
+        {
+            "amiLaunchIndex": 0, 
+            "architecture": "x86_64", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "/dev/sdf", 
+                    "ebs": {
+                        "attachTime": 1379931832000, 
+                        "status": "attached", 
+                        "volumeId": "vol-fe19d389"
+                    }
+                }
+            ], 
+            "clientToken": "", 
+            "hypervisor": "xen", 
+            "iamInstanceProfile": null, 
+            "imageId": "ami-f7541d9e", 
+            "instanceId": "i-83ccf6e7", 
+            "instanceLifecycle": null, 
+            "instanceType": "m1.large", 
+            "kernelId": "aki-88aa75e1", 
+            "keyName": "vijay", 
+            "launchTime": 1379919024000, 
+            "license": null, 
+            "monitoring": {
+                "state": "disabled"
+            }, 
+            "networkInterfaces": [], 
+            "placement": {
+                "availabilityZone": "us-east-1a", 
+                "groupName": "", 
+                "tenancy": "default"
+            }, 
+            "platform": null, 
+            "privateDnsName": "ip-10-236-182-18.ec2.internal", 
+            "privateIpAddress": "10.236.182.18", 
+            "productCodes": [], 
+            "publicDnsName": "ec2-54-221-191-46.compute-1.amazonaws.com", 
+            "publicIpAddress": "54.221.191.46", 
+            "ramdiskId": null, 
+            "rootDeviceName": null, 
+            "rootDeviceType": "instance-store", 
+            "securityGroups": [
+                {
+                    "groupId": "sg-015cab68", 
+                    "groupName": "default"
+                }
+            ], 
+            "spotInstanceRequestId": null, 
+            "state": {
+                "code": 16, 
+                "name": "running"
+            }, 
+            "stateReason": null, 
+            "stateTransitionReason": "", 
+            "subnetId": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "DockerInstance02"
+                }
+            ], 
+            "virtualizationType": "paravirtual", 
+            "vpcId": null
+        }, 
+        {
+            "amiLaunchIndex": 0, 
+            "architecture": "i386", 
+            "blockDeviceMappings": [], 
+            "clientToken": "", 
+            "hypervisor": "xen", 
+            "iamInstanceProfile": null, 
+            "imageId": "ami-40661929", 
+            "instanceId": "i-37130a50", 
+            "instanceLifecycle": null, 
+            "instanceType": "m1.small", 
+            "kernelId": "aki-b6aa75df", 
+            "keyName": "anshul_tomcatlogs", 
+            "launchTime": 1382531416000, 
+            "license": null, 
+            "monitoring": {
+                "state": "disabled"
+            }, 
+            "networkInterfaces": [], 
+            "placement": {
+                "availabilityZone": "us-east-1a", 
+                "groupName": "", 
+                "tenancy": "default"
+            }, 
+            "platform": null, 
+            "privateDnsName": "domU-12-31-39-0B-1D-24.compute-1.internal", 
+            "privateIpAddress": "10.214.34.210", 
+            "productCodes": [], 
+            "publicDnsName": "ec2-54-224-241-84.compute-1.amazonaws.com", 
+            "publicIpAddress": "54.224.241.84", 
+            "ramdiskId": null, 
+            "rootDeviceName": null, 
+            "rootDeviceType": "instance-store", 
+            "securityGroups": [
+                {
+                    "groupId": "sg-7a7edb11", 
+                    "groupName": "cloudjee-monitoring-agent"
+                }, 
+                {
+                    "groupId": "sg-812ef6ea", 
+                    "groupName": "cloudjee-ssh-group"
+                }, 
+                {
+                    "groupId": "sg-6e9c3005", 
+                    "groupName": "cloudjee-tomcat-instance"
+                }, 
+                {
+                    "groupId": "sg-155f207e", 
+                    "groupName": "jclouds#tomcatlogs"
+                }
+            ], 
+            "spotInstanceRequestId": null, 
+            "state": {
+                "code": 16, 
+                "name": "running"
+            }, 
+            "stateReason": null, 
+            "stateTransitionReason": "", 
+            "subnetId": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "tomcatlogs-37130a50"
+                }
+            ], 
+            "virtualizationType": "paravirtual", 
+            "vpcId": null
+        }, 
+        {
+            "amiLaunchIndex": 0, 
+            "architecture": "x86_64", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "/dev/sdf", 
+                    "ebs": {
+                        "attachTime": 1382524288000, 
+                        "status": "attached", 
+                        "volumeId": "vol-1da35150"
+                    }
+                }
+            ], 
+            "clientToken": "", 
+            "hypervisor": "xen", 
+            "iamInstanceProfile": null, 
+            "imageId": "ami-47aef82e", 
+            "instanceId": "i-27f1675f", 
+            "instanceLifecycle": null, 
+            "instanceType": "m1.small", 
+            "kernelId": "aki-88aa75e1", 
+            "keyName": "anshul_docklogs", 
+            "launchTime": 1382523971000, 
+            "license": null, 
+            "monitoring": {
+                "state": "disabled"
+            }, 
+            "networkInterfaces": [], 
+            "placement": {
+                "availabilityZone": "us-east-1e", 
+                "groupName": "", 
+                "tenancy": "default"
+            }, 
+            "platform": null, 
+            "privateDnsName": "ip-10-181-208-254.ec2.internal", 
+            "privateIpAddress": "10.181.208.254", 
+            "productCodes": [], 
+            "publicDnsName": "ec2-54-211-47-119.compute-1.amazonaws.com", 
+            "publicIpAddress": "54.211.47.119", 
+            "ramdiskId": null, 
+            "rootDeviceName": null, 
+            "rootDeviceType": "instance-store", 
+            "securityGroups": [
+                {
+                    "groupId": "sg-a58310ce", 
+                    "groupName": "cloudjee-docker-instance"
+                }, 
+                {
+                    "groupId": "sg-7a7edb11", 
+                    "groupName": "cloudjee-monitoring-agent"
+                }, 
+                {
+                    "groupId": "sg-812ef6ea", 
+                    "groupName": "cloudjee-ssh-group"
+                }, 
+                {
+                    "groupId": "sg-f1700f9a", 
+                    "groupName": "jclouds#docklogs"
+                }
+            ], 
+            "spotInstanceRequestId": null, 
+            "state": {
+                "code": 16, 
+                "name": "running"
+            }, 
+            "stateReason": null, 
+            "stateTransitionReason": "", 
+            "subnetId": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "docklogs-27f1675f"
+                }
+            ], 
+            "virtualizationType": "paravirtual", 
+            "vpcId": null
+        }
+    ], 
+    "securityGroups": [
+        {
+            "description": "jclouds#dockertest12123", 
+            "groupId": "sg-cf3c51a4", 
+            "groupName": "jclouds#dockertest12123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks Rails-App server - do not change or delete", 
+            "groupId": "sg-e13f2d89", 
+            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for Launched Docker Instances", 
+            "groupId": "sg-a58310ce", 
+            "groupName": "cloudjee-docker-instance", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 2200, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.141.6.170/32", 
+                        "182.73.145.150/32"
+                    ], 
+                    "toPort": 2299, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-432ff728", 
+                            "groupName": "cloudjee-platform-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 8000, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.141.6.170/32", 
+                        "182.73.145.150/32"
+                    ], 
+                    "toPort": 8099, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-432ff728", 
+                            "groupName": "cloudjee-platform-server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-0871d463", 
+                            "groupName": "cloudjee-platform-lb", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for MySQL instances", 
+            "groupId": "sg-1d04d976", 
+            "groupName": "mysql-security-group", 
+            "ipPermissions": [
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 3306, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 3306, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockstagetest", 
+            "groupId": "sg-3d9ef656", 
+            "groupName": "jclouds#dockstagetest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#pserver", 
+            "groupId": "sg-89bf2de2", 
+            "groupName": "jclouds#pserver", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitulocaldockergrp", 
+            "groupId": "sg-8198f6ea", 
+            "groupName": "jclouds#chaitulocaldockergrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for Puppet Master", 
+            "groupId": "sg-70a4011b", 
+            "groupName": "cloudjee-puppet-master", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 8140, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 8140, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-48a40123", 
+                            "groupName": "cloudjee-puppet-agent", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#newdocker123", 
+            "groupId": "sg-db7ae0b0", 
+            "groupName": "jclouds#newdocker123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#test1", 
+            "groupId": "sg-912150fa", 
+            "groupName": "jclouds#test1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks custom server - do not change or delete", 
+            "groupId": "sg-f53f2d9d", 
+            "groupName": "AWS-OpsWorks-Custom-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks Monitoring Ganglia server - do not change or delete", 
+            "groupId": "sg-f13f2d99", 
+            "groupName": "AWS-OpsWorks-Monitoring-Master-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e53f2d8d", 
+                            "groupName": "AWS-OpsWorks-DB-Master-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-ff3f2d97", 
+                            "groupName": "AWS-OpsWorks-Memcached-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f33f2d9b", 
+                            "groupName": "AWS-OpsWorks-Default-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e53f2d8d", 
+                            "groupName": "AWS-OpsWorks-DB-Master-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-ff3f2d97", 
+                            "groupName": "AWS-OpsWorks-Memcached-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f33f2d9b", 
+                            "groupName": "AWS-OpsWorks-Default-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e53f2d8d", 
+                            "groupName": "AWS-OpsWorks-DB-Master-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-ff3f2d97", 
+                            "groupName": "AWS-OpsWorks-Memcached-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f33f2d9b", 
+                            "groupName": "AWS-OpsWorks-Default-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docknewtest", 
+            "groupId": "sg-7b086b10", 
+            "groupName": "jclouds#docknewtest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockercj123", 
+            "groupId": "sg-bfc8a0d4", 
+            "groupName": "jclouds#dockercj123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockeramitest12121", 
+            "groupId": "sg-9f4c2cf4", 
+            "groupName": "jclouds#dockeramitest12121", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertestcj123", 
+            "groupId": "sg-bd93fbd6", 
+            "groupName": "jclouds#dockertestcj123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockerhello121212", 
+            "groupId": "sg-6382e408", 
+            "groupName": "jclouds#dockerhello121212", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaituthursdaygrp", 
+            "groupId": "sg-a391e1c8", 
+            "groupName": "jclouds#chaituthursdaygrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitumongrp", 
+            "groupId": "sg-8397e6e8", 
+            "groupName": "jclouds#chaitumongrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertest12121", 
+            "groupId": "sg-abdbbbc0", 
+            "groupName": "jclouds#dockertest12121", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#123123", 
+            "groupId": "sg-235ccf48", 
+            "groupName": "jclouds#123123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockernewamitest", 
+            "groupId": "sg-7711701c", 
+            "groupName": "jclouds#dockernewamitest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "This security group was generated by AWS Marketplace and is based on recommended settings for MediaWiki - Wikipedias Wiki Engine powered by TurnKey Linux version 121 provided by TurnKey Linux", 
+            "groupId": "sg-eb741f80", 
+            "groupName": "MediaWiki - Wikipedia--039-s Wiki Engine powered by TurnKey Linux-12-1-AutogenByAWSMP-", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 12320, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 12320, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 12321, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 12321, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 12322, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 12322, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertest23232", 
+            "groupId": "sg-4172e82a", 
+            "groupName": "jclouds#dockertest23232", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockerhelloworld", 
+            "groupId": "sg-0d36ae66", 
+            "groupName": "jclouds#dockerhelloworld", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#lbtest", 
+            "groupId": "sg-cdad3fa6", 
+            "groupName": "jclouds#lbtest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shivgrp1", 
+            "groupId": "sg-51a4d73a", 
+            "groupName": "jclouds#shivgrp1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertest12344", 
+            "groupId": "sg-5ba0c530", 
+            "groupName": "jclouds#dockertest12344", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitumondaygrp", 
+            "groupId": "sg-994c31f2", 
+            "groupName": "jclouds#chaitumondaygrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertes4", 
+            "groupId": "sg-9ded76f6", 
+            "groupName": "jclouds#dockertes4", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#conttest1", 
+            "groupId": "sg-359ef45e", 
+            "groupName": "jclouds#conttest1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitugrp2", 
+            "groupId": "sg-83ad3ee8", 
+            "groupName": "jclouds#chaitugrp2", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockerhellotest", 
+            "groupId": "sg-19137072", 
+            "groupName": "jclouds#dockerhellotest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockernewtest1", 
+            "groupId": "sg-0ddb4366", 
+            "groupName": "jclouds#dockernewtest1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "default group", 
+            "groupId": "sg-015cab68", 
+            "groupName": "default", 
+            "ipPermissions": [
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-015cab68", 
+                            "groupName": "default", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-015cab68", 
+                            "groupName": "default", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-015cab68", 
+                            "groupName": "default", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-c571b8ac", 
+                            "groupName": "cloud-security-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-c571b8ac", 
+                            "groupName": "cloud-security-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-c571b8ac", 
+                            "groupName": "cloud-security-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 3306, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0", 
+                        "10.208.193.222/32"
+                    ], 
+                    "toPort": 3306, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 3389, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 3389, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 4748, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 4748, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 7373, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 7373, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8080, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8080, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 9292, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 9292, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 9393, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 9393, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.140.0.158/32", 
+                        "196.12.47.99/32"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8181, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.140.0.158/32", 
+                        "196.12.47.99/32"
+                    ], 
+                    "toPort": 8181, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockernewtest", 
+            "groupId": "sg-4b0a6720", 
+            "groupName": "jclouds#dockernewtest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks PHP-App server - do not change or delete", 
+            "groupId": "sg-e33f2d8b", 
+            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#conttest", 
+            "groupId": "sg-898de7e2", 
+            "groupName": "jclouds#conttest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docktes1212", 
+            "groupId": "sg-1b0d6e70", 
+            "groupName": "jclouds#docktes1212", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docketest123", 
+            "groupId": "sg-f3127d98", 
+            "groupName": "jclouds#docketest123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertestnew", 
+            "groupId": "sg-6d503006", 
+            "groupName": "jclouds#dockertestnew", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#container", 
+            "groupId": "sg-53128138", 
+            "groupName": "jclouds#container", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitutestgrp", 
+            "groupId": "sg-99d9b6f2", 
+            "groupName": "jclouds#chaitutestgrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docker1", 
+            "groupId": "sg-f3cc5798", 
+            "groupName": "jclouds#docker1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitufridaydockergrp", 
+            "groupId": "sg-8991e4e2", 
+            "groupName": "jclouds#chaitufridaydockergrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security group for launched instances with Pramati Server", 
+            "groupId": "sg-f34a9298", 
+            "groupName": "cloudjee-pramati-instance", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 9393, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 9393, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-432ff728", 
+                            "groupName": "cloudjee-platform-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-0871d463", 
+                            "groupName": "cloudjee-platform-lb", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "testing group copy", 
+            "groupId": "sg-5765f13c", 
+            "groupName": "deepika-test", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-1bcd6273", 
+                            "groupName": "test-cloud-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-1bcd6273", 
+                            "groupName": "test-cloud-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-1bcd6273", 
+                            "groupName": "test-cloud-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.141.6.170/32"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 3389, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.141.6.170/32"
+                    ], 
+                    "toPort": 3389, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shivgroup21", 
+            "groupId": "sg-5babd630", 
+            "groupName": "jclouds#shivgroup21", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "A security group for cloud server. ONLY FOR TESTING", 
+            "groupId": "sg-1bcd6273", 
+            "groupName": "test-cloud-server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 3389, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 3389, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#group2", 
+            "groupId": "sg-3f920f54", 
+            "groupName": "jclouds#group2", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for Pramati Server Instances", 
+            "groupId": "sg-0504d96e", 
+            "groupName": "pserver-security-group", 
+            "ipPermissions": [
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "CloudJee Monitoring Server group for CollectD/Riemann/Graphite server", 
+            "groupId": "sg-967fdafd", 
+            "groupName": "cloudjee-monitoring-server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 8080, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8080, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-0871d463", 
+                            "groupName": "cloudjee-platform-lb", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 12346, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 12346, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#graphite", 
+            "groupId": "sg-8d9102e6", 
+            "groupName": "jclouds#graphite", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docker121212", 
+            "groupId": "sg-c35435a8", 
+            "groupName": "jclouds#docker121212", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#testgrp222326732", 
+            "groupId": "sg-03ce5d68", 
+            "groupName": "jclouds#testgrp222326732", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docker1212121", 
+            "groupId": "sg-db0298b0", 
+            "groupName": "jclouds#docker1212121", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docktest1222", 
+            "groupId": "sg-0d462766", 
+            "groupName": "jclouds#docktest1222", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shiv1", 
+            "groupId": "sg-cb9905a0", 
+            "groupName": "jclouds#shiv1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#defaultgroup", 
+            "groupId": "sg-27c5b34c", 
+            "groupName": "jclouds#defaultgroup", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockerdisktest1", 
+            "groupId": "sg-ab3858c0", 
+            "groupName": "jclouds#dockerdisktest1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitulocaltestgrp", 
+            "groupId": "sg-3d9af756", 
+            "groupName": "jclouds#chaitulocaltestgrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#activation", 
+            "groupId": "sg-abbfc3c0", 
+            "groupName": "jclouds#activation", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudocker1", 
+            "groupId": "sg-dd4dd1b6", 
+            "groupName": "jclouds#chaitudocker1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docktestnew12121", 
+            "groupId": "sg-330f6c58", 
+            "groupName": "jclouds#docktestnew12121", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shivgroup22", 
+            "groupId": "sg-e5a1dc8e", 
+            "groupName": "jclouds#shivgroup22", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertest1232", 
+            "groupId": "sg-1d90f776", 
+            "groupName": "jclouds#dockertest1232", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security group for stress testing the autodesk patch", 
+            "groupId": "sg-f1b6669a", 
+            "groupName": "autodesk_stress", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8181, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8181, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitugrp1", 
+            "groupId": "sg-3da53656", 
+            "groupName": "jclouds#chaitugrp1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockernewtest2", 
+            "groupId": "sg-7f3aa214", 
+            "groupName": "jclouds#dockernewtest2", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudocker", 
+            "groupId": "sg-e9bc2182", 
+            "groupName": "jclouds#chaitudocker", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaituthursdaydocker", 
+            "groupId": "sg-fbb9d390", 
+            "groupName": "jclouds#chaituthursdaydocker", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockernewtesting3123213", 
+            "groupId": "sg-f532a89e", 
+            "groupName": "jclouds#dockernewtesting3123213", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dock123test", 
+            "groupId": "sg-71a0d51a", 
+            "groupName": "jclouds#dock123test", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "LB for CloudJee Platform", 
+            "groupId": "sg-0871d463", 
+            "groupName": "cloudjee-platform-lb", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 6161, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 6175, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-432ff728", 
+                            "groupName": "cloudjee-platform-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#activetest", 
+            "groupId": "sg-81572bea", 
+            "groupName": "jclouds#activetest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for Puppet Agent", 
+            "groupId": "sg-48a40123", 
+            "groupName": "cloudjee-puppet-agent", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertest123", 
+            "groupId": "sg-25cea74e", 
+            "groupName": "jclouds#dockertest123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#testgroup", 
+            "groupId": "sg-d98518b2", 
+            "groupName": "jclouds#testgroup", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Group for demo instances launched by customers. Do NOT shutdown without confirming with vijay", 
+            "groupId": "sg-8415ebed", 
+            "groupName": "live-customer-servers", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-8415ebed", 
+                            "groupName": "live-customer-servers", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-8415ebed", 
+                            "groupName": "live-customer-servers", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-8415ebed", 
+                            "groupName": "live-customer-servers", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#newami", 
+            "groupId": "sg-058d106e", 
+            "groupName": "jclouds#newami", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for launching Tomcat instances", 
+            "groupId": "sg-6e9c3005", 
+            "groupName": "cloudjee-tomcat-instance", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.141.6.170/32"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-0871d463", 
+                            "groupName": "cloudjee-platform-lb", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#testgrp1704739634", 
+            "groupId": "sg-dfc556b4", 
+            "groupName": "jclouds#testgrp1704739634", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertest", 
+            "groupId": "sg-a78a18cc", 
+            "groupName": "jclouds#dockertest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks Memcached server - do not change or delete", 
+            "groupId": "sg-ff3f2d97", 
+            "groupName": "AWS-OpsWorks-Memcached-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docktest213", 
+            "groupId": "sg-b30b65d8", 
+            "groupName": "jclouds#docktest213", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#tomcatlogs", 
+            "groupId": "sg-155f207e", 
+            "groupName": "jclouds#tomcatlogs", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitulocalgrp", 
+            "groupId": "sg-4d472826", 
+            "groupName": "jclouds#chaitulocalgrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docker1212", 
+            "groupId": "sg-a90467c2", 
+            "groupName": "jclouds#docker1212", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "ssh access allowed for pramati network & staging deployment", 
+            "groupId": "sg-812ef6ea", 
+            "groupName": "cloudjee-ssh-group", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.141.6.170/32", 
+                        "182.73.145.150/32"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for persisting Pramati Cluster Configuration", 
+            "groupId": "sg-b456f1df", 
+            "groupName": "cloudjee-platform-clusterdb", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 3306, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 3306, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-f34a9298", 
+                            "groupName": "cloudjee-pramati-instance", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docktest123", 
+            "groupId": "sg-cdfb95a6", 
+            "groupName": "jclouds#docktest123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitutuesdaydocker", 
+            "groupId": "sg-df91f9b4", 
+            "groupName": "jclouds#chaitutuesdaydocker", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docker12345", 
+            "groupId": "sg-8b4d2ce0", 
+            "groupName": "jclouds#docker12345", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for Platform Database", 
+            "groupId": "sg-cea500a5", 
+            "groupName": "cloudjee-platform-db", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 3306, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 3306, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-432ff728", 
+                            "groupName": "cloudjee-platform-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertesting1234", 
+            "groupId": "sg-59583f32", 
+            "groupName": "jclouds#dockertesting1234", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#testgrp647488698", 
+            "groupId": "sg-6fc85b04", 
+            "groupName": "jclouds#testgrp647488698", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "CloudJee monitoring agent group", 
+            "groupId": "sg-7a7edb11", 
+            "groupName": "cloudjee-monitoring-agent", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-432ff728", 
+                            "groupName": "cloudjee-platform-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-432ff728", 
+                            "groupName": "cloudjee-platform-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-432ff728", 
+                            "groupName": "cloudjee-platform-server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#singh1", 
+            "groupId": "sg-a9d840c2", 
+            "groupName": "jclouds#singh1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Grinder group", 
+            "groupId": "sg-019c1a6a", 
+            "groupName": "All Incoming", 
+            "ipPermissions": [
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.141.6.170/32"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 3389, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.141.6.170/32"
+                    ], 
+                    "toPort": 3389, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "PServer Stress Test", 
+            "groupId": "sg-a66e9bcd", 
+            "groupName": "StressTest", 
+            "ipPermissions": [
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 85, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 85, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 445, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 445, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 3306, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 3306, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 4567, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 4567, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 4747, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 4747, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 4748, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 4748, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8000, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8000, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8080, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8080, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8090, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8090, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8140, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8140, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8686, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8686, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8888, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8888, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 9191, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 9191, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 61613, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 61613, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudockertuesday", 
+            "groupId": "sg-ed95fd86", 
+            "groupName": "jclouds#chaitudockertuesday", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertests123", 
+            "groupId": "sg-fb8dea90", 
+            "groupName": "jclouds#dockertests123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks load balancer - do not change or delete", 
+            "groupId": "sg-f93f2d91", 
+            "groupName": "AWS-OpsWorks-LB-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#newgroup7", 
+            "groupId": "sg-d7e179bc", 
+            "groupName": "jclouds#newgroup7", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#vijay", 
+            "groupId": "sg-b3ef7dd8", 
+            "groupName": "jclouds#vijay", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#lbcontainer", 
+            "groupId": "sg-e973ef82", 
+            "groupName": "jclouds#lbcontainer", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudockertestgrp", 
+            "groupId": "sg-1dd2bb76", 
+            "groupName": "jclouds#chaitudockertestgrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for Cloud Server", 
+            "groupId": "sg-c571b8ac", 
+            "groupName": "cloud-security-group", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "14.140.0.158/32"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-015cab68", 
+                            "groupName": "default", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-c571b8ac", 
+                            "groupName": "cloud-security-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-015cab68", 
+                            "groupName": "default", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-c571b8ac", 
+                            "groupName": "cloud-security-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-015cab68", 
+                            "groupName": "default", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-c571b8ac", 
+                            "groupName": "cloud-security-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0", 
+                        "14.141.6.170/32"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0", 
+                        "115.111.235.210/32", 
+                        "14.140.0.154/32", 
+                        "14.140.0.158/32"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 3389, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 3389, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 4748, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 4748, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 6161, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 6161, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 6372, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 6372, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8000, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8000, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 8383, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 8383, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 9191, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 9191, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 9393, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 9393, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 0, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockerhellotes1", 
+            "groupId": "sg-bf168dd4", 
+            "groupName": "jclouds#dockerhellotes1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#hello123", 
+            "groupId": "sg-79e98212", 
+            "groupName": "jclouds#hello123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Group for Live Cloud Console Servers. Do NOT shutdown", 
+            "groupId": "sg-8e15ebe7", 
+            "groupName": "live-cloud-consoles", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-8e15ebe7", 
+                            "groupName": "live-cloud-consoles", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "CloudJee platform server", 
+            "groupId": "sg-432ff728", 
+            "groupName": "cloudjee-platform-server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 8008, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 8008, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-0871d463", 
+                            "groupName": "cloudjee-platform-lb", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docker221312", 
+            "groupId": "sg-53a0c738", 
+            "groupName": "jclouds#docker221312", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shiv16group1", 
+            "groupId": "sg-af2eb7c4", 
+            "groupName": "jclouds#shiv16group1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudokergrp101", 
+            "groupId": "sg-e3086088", 
+            "groupName": "jclouds#chaitudokergrp101", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockerhellotest121", 
+            "groupId": "sg-971370fc", 
+            "groupName": "jclouds#dockerhellotest121", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudockergrp1", 
+            "groupId": "sg-6d97f906", 
+            "groupName": "jclouds#chaitudockergrp1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks Default server - do not change or delete", 
+            "groupId": "sg-f33f2d9b", 
+            "groupName": "AWS-OpsWorks-Default-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudockerwednsday", 
+            "groupId": "sg-398ee552", 
+            "groupName": "jclouds#chaitudockerwednsday", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shivgroup1", 
+            "groupId": "sg-03891b68", 
+            "groupName": "jclouds#shivgroup1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertest2121", 
+            "groupId": "sg-a16402ca", 
+            "groupName": "jclouds#dockertest2121", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertesting123", 
+            "groupId": "sg-c3df45a8", 
+            "groupName": "jclouds#dockertesting123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shiv2", 
+            "groupId": "sg-c3910da8", 
+            "groupName": "jclouds#shiv2", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docknewadd", 
+            "groupId": "sg-07335e6c", 
+            "groupName": "jclouds#docknewadd", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#contianer", 
+            "groupId": "sg-2748d44c", 
+            "groupName": "jclouds#contianer", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#adsada", 
+            "groupId": "sg-b7aa39dc", 
+            "groupName": "jclouds#adsada", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitugrp5", 
+            "groupId": "sg-b356c5d8", 
+            "groupName": "jclouds#chaitugrp5", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertest12312", 
+            "groupId": "sg-cb1776a0", 
+            "groupName": "jclouds#dockertest12312", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks nodejs-App server - do not change or delete", 
+            "groupId": "sg-f73f2d9f", 
+            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitu1", 
+            "groupId": "sg-25069e4e", 
+            "groupName": "jclouds#chaitu1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudockertest", 
+            "groupId": "sg-9194f9fa", 
+            "groupName": "jclouds#chaitudockertest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudocker2", 
+            "groupId": "sg-cd41dda6", 
+            "groupName": "jclouds#chaitudocker2", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docklogs", 
+            "groupId": "sg-f1700f9a", 
+            "groupName": "jclouds#docklogs", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitumondaydocker", 
+            "groupId": "sg-8595e4ee", 
+            "groupName": "jclouds#chaitumondaydocker", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#groupchaitu", 
+            "groupId": "sg-a3cb50c8", 
+            "groupName": "jclouds#groupchaitu", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks Web server - do not change or delete", 
+            "groupId": "sg-e73f2d8f", 
+            "groupName": "AWS-OpsWorks-Web-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-f93f2d91", 
+                            "groupName": "AWS-OpsWorks-LB-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 80, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 80, 
+                    "userIdGroupPairs": []
+                }, 
+                {
+                    "fromPort": 443, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 443, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitufinalgrp", 
+            "groupId": "sg-3197e45a", 
+            "groupName": "jclouds#chaitufinalgrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#develop", 
+            "groupId": "sg-076c0c6c", 
+            "groupName": "jclouds#develop", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#test", 
+            "groupId": "sg-4978a422", 
+            "groupName": "jclouds#test", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shiv20", 
+            "groupId": "sg-a1b528ca", 
+            "groupName": "jclouds#shiv20", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#text", 
+            "groupId": "sg-f993f692", 
+            "groupName": "jclouds#text", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#hellodocker123", 
+            "groupId": "sg-8b2449e0", 
+            "groupName": "jclouds#hellodocker123", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks database master server - do not change or delete", 
+            "groupId": "sg-e53f2d8d", 
+            "groupName": "AWS-OpsWorks-DB-Master-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e53f2d8d", 
+                            "groupName": "AWS-OpsWorks-DB-Master-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 1, 
+                    "ipProtocol": "udp", 
+                    "ipRanges": [], 
+                    "toPort": 65535, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e53f2d8d", 
+                            "groupName": "AWS-OpsWorks-DB-Master-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-e13f2d89", 
+                            "groupName": "AWS-OpsWorks-Rails-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e33f2d8b", 
+                            "groupName": "AWS-OpsWorks-PHP-App-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e53f2d8d", 
+                            "groupName": "AWS-OpsWorks-DB-Master-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-e73f2d8f", 
+                            "groupName": "AWS-OpsWorks-Web-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f53f2d9d", 
+                            "groupName": "AWS-OpsWorks-Custom-Server", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-f73f2d9f", 
+                            "groupName": "AWS-OpsWorks-nodejs-App-Server", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shivgroup30", 
+            "groupId": "sg-b1a73ada", 
+            "groupName": "jclouds#shivgroup30", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docker", 
+            "groupId": "sg-255ecc4e", 
+            "groupName": "jclouds#docker", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#shivgroup2", 
+            "groupId": "sg-5b8d1f30", 
+            "groupName": "jclouds#shivgroup2", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitunewtestgrp", 
+            "groupId": "sg-0386f568", 
+            "groupName": "jclouds#chaitunewtestgrp", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#dockertest1", 
+            "groupId": "sg-6730a80c", 
+            "groupName": "jclouds#dockertest1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#chaitudockrgrp101", 
+            "groupId": "sg-871a72ec", 
+            "groupName": "jclouds#chaitudockrgrp101", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "Security Group for Provisioned MySql Instance", 
+            "groupId": "sg-baa500d1", 
+            "groupName": "cloudjee-mysql-instance", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-812ef6ea", 
+                            "groupName": "cloudjee-ssh-group", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": 3306, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [], 
+                    "toPort": 3306, 
+                    "userIdGroupPairs": [
+                        {
+                            "groupId": "sg-f34a9298", 
+                            "groupName": "cloudjee-pramati-instance", 
+                            "userId": "178272758153"
+                        }, 
+                        {
+                            "groupId": "sg-6e9c3005", 
+                            "groupName": "cloudjee-tomcat-instance", 
+                            "userId": "178272758153"
+                        }
+                    ]
+                }, 
+                {
+                    "fromPort": -1, 
+                    "ipProtocol": "icmp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": -1, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "AWS OpsWorks blank server - do not change or delete", 
+            "groupId": "sg-fb3f2d93", 
+            "groupName": "AWS-OpsWorks-Blank-Server", 
+            "ipPermissions": [
+                {
+                    "fromPort": 22, 
+                    "ipProtocol": "tcp", 
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ], 
+                    "toPort": 22, 
+                    "userIdGroupPairs": []
+                }
+            ], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#containertest", 
+            "groupId": "sg-b12241da", 
+            "groupName": "jclouds#containertest", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }, 
+        {
+            "description": "jclouds#docktest1", 
+            "groupId": "sg-f5f79a9e", 
+            "groupName": "jclouds#docktest1", 
+            "ipPermissions": [], 
+            "ipPermissionsEgress": [], 
+            "ownerId": "178272758153", 
+            "tags": [], 
+            "vpcId": null
+        }
+    ],
+    "images": [
+        {
+            "architecture": "i386", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "sda2", 
+                    "ebs": null, 
+                    "noDevice": null, 
+                    "virtualName": "ephemeral0"
+                }
+            ], 
+            "description": null, 
+            "imageId": "ami-40661929", 
+            "imageLocation": "/ami-cloudjee-tomcat7/image.manifest.xml", 
+            "imageOwnerAlias": null, 
+            "imageType": "machine", 
+            "kernelId": "aki-b6aa75df", 
+            "name": "image.tomcat7.collectd", 
+            "ownerId": "178272758153", 
+            "platform": null, 
+            "productCodes": [], 
+            "ramdiskId": null, 
+            "rootDeviceName": "/dev/sda1", 
+            "rootDeviceType": "instance-store", 
+            "stateReason": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "Tomcat7CollectD"
+                }
+            ]
+        }, 
+        {
+            "architecture": "x86_64", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "sda2", 
+                    "ebs": null, 
+                    "noDevice": null, 
+                    "virtualName": "ephemeral0"
+                }, 
+                {
+                    "deviceName": "sdc", 
+                    "ebs": null, 
+                    "noDevice": null, 
+                    "virtualName": "ephemeral1"
+                }
+            ], 
+            "description": "-", 
+            "imageId": "ami-47aef82e", 
+            "imageLocation": "ami-cloudjee-docker0.6.2-collectd-swap/image.manifest.xml", 
+            "imageOwnerAlias": null, 
+            "imageType": "machine", 
+            "kernelId": "aki-88aa75e1", 
+            "name": "ubuntu12.04-amd64-cloudjee-docker0.6.2-collectd-swap", 
+            "ownerId": "178272758153", 
+            "platform": null, 
+            "productCodes": [], 
+            "ramdiskId": null, 
+            "rootDeviceName": "/dev/sda1", 
+            "rootDeviceType": "instance-store", 
+            "stateReason": null, 
+            "tags": []
+        }, 
+        {
+            "architecture": "i386", 
+            "blockDeviceMappings": [], 
+            "description": null, 
+            "imageId": "ami-85ce9aec", 
+            "imageLocation": "ubuntu-us-east-1/images/ubuntu-quantal-12.10-i386-server-20130929.manifest.xml", 
+            "imageOwnerAlias": null, 
+            "imageType": "machine", 
+            "kernelId": "aki-b6aa75df", 
+            "name": "ubuntu/images/ubuntu-quantal-12.10-i386-server-20130929", 
+            "ownerId": "099720109477", 
+            "platform": null, 
+            "productCodes": [], 
+            "ramdiskId": null, 
+            "rootDeviceName": null, 
+            "rootDeviceType": "instance-store", 
+            "stateReason": null, 
+            "tags": []
+        }, 
+        {
+            "architecture": "i386", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "sda2", 
+                    "ebs": null, 
+                    "noDevice": null, 
+                    "virtualName": "ephemeral0"
+                }
+            ], 
+            "description": "-", 
+            "imageId": "ami-90e076f9", 
+            "imageLocation": "ami.cloudjee.mysql/image.manifest.xml", 
+            "imageOwnerAlias": null, 
+            "imageType": "machine", 
+            "kernelId": "aki-805ea7e9", 
+            "name": "cloudjee.mysql", 
+            "ownerId": "178272758153", 
+            "platform": null, 
+            "productCodes": [], 
+            "ramdiskId": null, 
+            "rootDeviceName": "/dev/sda1", 
+            "rootDeviceType": "instance-store", 
+            "stateReason": null, 
+            "tags": [
+                {
+                    "key": "Name", 
+                    "value": "Mysql5.1"
+                }
+            ]
+        }, 
+        {
+            "architecture": "x86_64", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "/dev/sda1", 
+                    "ebs": {
+                        "iops": null, 
+                        "snapshotId": "snap-36eca83a", 
+                        "volumeSize": 8
+                    }, 
+                    "noDevice": null, 
+                    "virtualName": null
+                }, 
+                {
+                    "deviceName": "/dev/sdf4", 
+                    "ebs": {
+                        "iops": null, 
+                        "snapshotId": "snap-4ceca840", 
+                        "volumeSize": 20
+                    }, 
+                    "noDevice": null, 
+                    "virtualName": null
+                }, 
+                {
+                    "deviceName": "/dev/sdb", 
+                    "ebs": null, 
+                    "noDevice": null, 
+                    "virtualName": "ephemeral0"
+                }
+            ], 
+            "description": "EBS backed ami with Graphite, Collectd and riemann installed", 
+            "imageId": "ami-affcbec6", 
+            "imageLocation": "178272758153/Graphite-Riemann-Collectd", 
+            "imageOwnerAlias": null, 
+            "imageType": "machine", 
+            "kernelId": "aki-88aa75e1", 
+            "name": "Graphite-Riemann-Collectd", 
+            "ownerId": "178272758153", 
+            "platform": null, 
+            "productCodes": [], 
+            "ramdiskId": null, 
+            "rootDeviceName": "/dev/sda1", 
+            "rootDeviceType": "ebs", 
+            "stateReason": null, 
+            "tags": []
+        }, 
+        {
+            "architecture": "x86_64", 
+            "blockDeviceMappings": [
+                {
+                    "deviceName": "sda2", 
+                    "ebs": null, 
+                    "noDevice": null, 
+                    "virtualName": "ephemeral0"
+                }, 
+                {
+                    "deviceName": "sdc", 
+                    "ebs": null, 
+                    "noDevice": null, 
+                    "virtualName": "ephemeral1"
+                }
+            ], 
+            "description": "-", 
+            "imageId": "ami-f7541d9e", 
+            "imageLocation": "ami-cloujee-docker0.5.0-collectd-dev/image.manifest.xml", 
+            "imageOwnerAlias": null, 
+            "imageType": "machine", 
+            "kernelId": "aki-88aa75e1", 
+            "name": "ubuntu12.04-amd84-cloudjee-docker0.5.0-dev-collectd", 
+            "ownerId": "178272758153", 
+            "platform": null, 
+            "productCodes": [], 
+            "ramdiskId": null, 
+            "rootDeviceName": "/dev/sda1", 
+            "rootDeviceType": "instance-store", 
+            "stateReason": null, 
+            "tags": []
+        }
+    ]
+}
